@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".activity.AddProductActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:fillViewport="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product Name"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/mAddProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter product name"
+            android:inputType="text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SKU Name"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/mSKU"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter sku name"
+            android:inputType="text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Brand"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/mBrand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter brand"
+            android:inputType="text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/mCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter category"
+            android:inputType="text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/mDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter description"
+            android:inputType="textMultiLine"
+            android:minLines="3"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price to Retailer"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/mPTR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter price to retailer"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GST"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/mGST"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter GST"
+            android:inputType="numberDecimal"/>
+
+        <Button
+            android:id="@+id/mAddProductBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Add Product" />
+
+    </LinearLayout>
+
+</ScrollView>
